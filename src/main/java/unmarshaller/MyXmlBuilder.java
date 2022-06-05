@@ -1,12 +1,10 @@
 package unmarshaller;
 
-import com.anton.task.TaskConstants;
 import com.anton.task.model.Hotel;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.OutputKeys;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
@@ -15,13 +13,7 @@ import javax.xml.transform.stream.StreamResult;
 import java.io.FileOutputStream;
 import java.util.List;
 
-import static com.anton.task.TaskConstants.ADDRESS;
-import static com.anton.task.TaskConstants.ADDRESSES;
-import static com.anton.task.TaskConstants.LISTS;
-import static com.anton.task.TaskConstants.NAME;
-import static com.anton.task.TaskConstants.NAMES;
-import static com.anton.task.TaskConstants.PRICE;
-import static com.anton.task.TaskConstants.PRICES;
+import static com.anton.task.TaskConstants.*;
 
 public class MyXmlBuilder {
 

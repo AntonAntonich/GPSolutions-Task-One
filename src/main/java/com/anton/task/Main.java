@@ -6,7 +6,7 @@ import com.anton.task.reader.MyXmlReader;
 import com.anton.task.service.HotelServiceImpl;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import unmarshaller.MyXmlBuilder;
+import com.anton.task.unmarshaller.MyXmlBuilder;
 
 import java.util.List;
 

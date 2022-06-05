@@ -1,4 +1,4 @@
-package unmarshaller;
+package com.anton.task.unmarshaller;
 
 import com.anton.task.model.Hotel;
 import org.w3c.dom.Document;

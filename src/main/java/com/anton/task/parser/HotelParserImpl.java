@@ -16,7 +16,7 @@ import static com.anton.task.TaskConstants.PRICE;
 
 
 public class HotelParserImpl implements HotelParser {
-    private HotelRepositoryImpl hotels = HotelRepositoryImpl.getInstance();
+    private final HotelRepositoryImpl hotels = HotelRepositoryImpl.getInstance();
 
     public List<Hotel> parseXmlIntoObjects(Node rootNode) {
         Hotel hotel;
